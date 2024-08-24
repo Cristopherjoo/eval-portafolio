@@ -1,0 +1,145 @@
+/* header - navegador  */
+header {
+    background: linear-gradient(135deg, #ff00d4, #00ccff);
+    padding: 40px;
+    text-align: center;
+    color: #fff;
+    border-radius: 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #fff;
+  }
+  
+  header p {
+    font-size: 1.2em;
+    font-family: 'Roboto', sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+    color: #f0f0f0;
+  }
+  
+  nav {
+    margin-top: 20px;
+  }
+  
+  .nav {
+    background-color: #0072ff;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+  }
+  
+  .nav-item {
+    margin: 0 15px;
+  }
+  
+  .nav-link {
+    color: #fff;
+    font-size: 1.1em;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    background-color: #00c6ff;
+    color: #000;
+    border-radius: 30px;
+  }
+  
+/* fin navegador */
+
+/* modal emergente */
+body{
+    background-color: #081420;
+}
+.my-layout {
+    width: 100%;
+}
+.row {
+    display: flex;
+}
+.col-right {
+    width: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.col-left{
+    width: 50%;
+    margin-bottom: 50px;
+    box-sizing: border-box;
+}
+.full-width {           
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+/* Estilos opcionales */
+.col-left {
+    background-color: rgba(135, 31, 161, 0.753);               
+}
+.col-right {
+    background-color: #11ad71ee;
+}
+.full-width {
+    background-color: #ca71a8;
+}
+
+/* titulo proyecto */
+.titulo-proyecto {
+    margin-bottom: 0;
+    position: relative;    
+    z-index: 1;
+    color: wheat;
+
+}
+/* fin modal */
+
+/* habilidades */
+
+
+#habilidades {
+  text-align: center; /* Centrar el contenido dentro de la sección */
+  margin-top: 20px;
+}
+
+#habilidades .d-flex {
+  justify-content: space-around; /* Espacio uniforme entre los elementos */
+  align-items: center;
+}
+
+#habilidades .mx-2 {
+  transition: transform 0.3s ease; /* Transición suave al hacer hover */
+}
+
+#habilidades .mx-2:hover {
+  transform: scale(1.1); /* Aumenta ligeramente el tamaño al hacer hover */
+}
+
+.custom-img {
+  height: 50px;
+  max-width: 100%;
+  border-radius: 8px; /* Bordes ligeramente redondeados */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil para darle profundidad */
+}
+
+@media (max-width: 768px) {
+  #habilidades .d-flex {
+    flex-direction: column;
+  }
+
+  #habilidades .mx-2 {
+    margin-bottom: 10px;
+  }
+}
