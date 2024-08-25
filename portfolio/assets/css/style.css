@@ -1,7 +1,8 @@
 /* header - navegador  */
 header {
     background: linear-gradient(135deg, #ff00d4, #00ccff);
-    padding: 40px;
+    padding: 30px;
+    height: 100vh;
     text-align: center;
     color: #fff;
     border-radius: 0;
@@ -9,52 +10,40 @@ header {
   }
   
   header h1 {
-    font-size: 2.5em;
-    margin-bottom: 10px;
+    font-size: 3.0em;
+    margin-bottom: 80px;
+    padding-top: 50px;
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #fff;
+    letter-spacing: 6px;
+    color: rgb(255, 255, 255);
   }
   
   header p {
     font-size: 1.2em;
     font-family: 'Roboto', sans-serif;
-    max-width: 800px;
+    max-width: 900px;
     margin: 0 auto;
+    padding-bottom: 50px;
     line-height: 1.6;
-    color: #f0f0f0;
+    color: rgb(240, 240, 240);
   }
   
   nav {
-    margin-top: 20px;
-  }
-  
-  .nav {
-    background-color: #0072ff;
-    border-radius: 50px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    overflow: hidden;
-  }
-  
-  .nav-item {
-    margin: 0 15px;
-  }
-  
-  .nav-link {
-    color: #fff;
+    margin: 30px;
+    padding: 50px;
+    border-radius: 10px;
+  }  
+
+   .nav-link {
+    color: rgb(58, 2, 2);
     font-size: 1.1em;
-    padding: 10px 20px;
+    padding: 10px 10px;
     text-transform: uppercase;
     font-family: 'Poppins', sans-serif;
     transition: background-color 0.3s ease, color 0.3s ease;
   }
   
-  .nav-link:hover {
-    background-color: #00c6ff;
-    color: #000;
-    border-radius: 30px;
-  }
   
 /* fin navegador */
 
@@ -110,6 +99,7 @@ body{
 
 
 #habilidades {
+  padding: 150px;
   text-align: center; /* Centrar el contenido dentro de la sección */
   margin-top: 20px;
 }
@@ -142,4 +132,74 @@ body{
   #habilidades .mx-2 {
     margin-bottom: 10px;
   }
+}
+
+
+#contacto {
+  background-color: #f9f9f9; /* Fondo suave para la sección */
+  padding: 40px; /* Espacio interno alrededor del formulario */
+  border-radius: 8px; /* Bordes redondeados */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil para darle profundidad */
+  max-width: 500px; /* Ancho máximo del formulario */
+  margin: 200px auto; /* Centrar el formulario y agregar margen superior e inferior */
+}
+
+#contactForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 20px; /* Espacio entre los campos del formulario */
+}
+
+.form-group label {
+  font-weight: bold; /* Texto del label en negrita */
+  margin-bottom: 5px; /* Espacio entre el label y el campo */
+}
+
+.form-control {
+  padding: 10px; /* Espacio interno en los campos del formulario */
+  border-radius: 4px; /* Bordes redondeados en los campos */
+  border: 1px solid #ccc; /* Borde gris claro */
+  font-size: 16px; /* Tamaño de la fuente */
+}
+
+textarea.form-control {
+  resize: vertical; /* Permite cambiar el tamaño vertical del textarea */
+  min-height: 150px; /* Altura mínima del textarea */
+}
+
+.btn-primary {
+  padding: 10px 20px; /* Espacio interno en el botón */
+  font-size: 16px; /* Tamaño de la fuente del botón */
+  background-color: #007bff; /* Color de fondo del botón */
+  border: none; /* Sin borde */
+  border-radius: 4px; /* Bordes redondeados en el botón */
+  color: white; /* Color del texto */
+  cursor: pointer; /* Cambiar cursor a mano */
+  transition: background-color 0.3s ease; /* Transición suave del color de fondo */
+}
+
+.btn-primary:hover {
+  background-color: #0056b3; /* Color de fondo más oscuro al hacer hover */
+}
+
+/* footer */
+footer {
+  background-color: #343a40; /* Color de fondo oscuro */
+  color: #ffffff; /* Texto en color blanco */
+  text-align: center; /* Centra el texto dentro del footer */
+  padding: 20px 0; /* Espacio interno en la parte superior e inferior */
+  margin-top: 40px; /* Espacio superior para separar del contenido anterior */
+  font-size: 14px; /* Tamaño de la fuente */
+  border-top: 2px solid #007bff; /* Línea superior del footer */
+}
+
+footer p {
+  margin: 0; /* Elimina los márgenes predeterminados del párrafo */
+}
+
+footer p:hover {
+  color: #adb5bd; /* Color gris claro al pasar el cursor sobre el texto */
 }

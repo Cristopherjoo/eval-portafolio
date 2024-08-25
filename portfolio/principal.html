@@ -14,58 +14,79 @@
 
   <body>
     <header>
-      <h1>Cristopher Joo pagina principal</h1>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Navbar</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="nav justify-content-center ms-auto">
+                    <li class="nav-item px-5">
+                      <a class="nav-link" href="#habilidades">Habilidades</a>
+                    </li>
+                    <li onclick="abrirVentana()" class="nav-item">
+                      <a class="nav-link px-5" href="#proyectos">Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link px-5" href="#contacto">Contacto</a>
+                    </li>
+                  </ul>
+              </div>
+            </div>
+          </nav>
+
+<!-- 
+        <nav>
+            <ul class="nav justify-content-center">
+              <li class="nav-item">
+                <a class="nav-link" href="#habilidades">Habilidades</a>
+              </li>
+              <li onclick="abrirVentana()" class="nav-item">
+                <a class="nav-link" href="#proyectos">Proyectos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contacto">Contacto</a>
+              </li>
+            </ul>
+          </nav> -->
+      <h1>Cristopher Joo</h1>
       <p>
-        Desarrollador web en formación con conocimientos en JavaScript, CSS,
-        SASS y Bootstrap. Estoy en constante aprendizaje y este portafolio
-        refleja mis primeros pasos en el desarrollo web. Aquí exploro y practico
-        tecnologías modernas que me ayudarán a crecer en este campo."
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti dolores ex recusandae! Vel impedit fuga omnis, architecto, labore cum eos quibusdam nulla voluptates et mollitia voluptatem, quia eum quasi corrupti.
       </p>
-      <nav>
-        <ul class="nav justify-content-center">
-          <li class="nav-item">
-            <a class="nav-link" href="#habilidades">Habilidades</a>
-          </li>
-          <li onclick="abrirVentana()" class="nav-item">
-            <a class="nav-link" href="#proyectos">Proyectos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contacto">Contacto</a>
-          </li>
-        </ul>
-      </nav>
+      
     </header>
 
     <main>
       <section id="habilidades">
-        <div class="d-flex justify-content-around">
-          <div class="mx-2">
+        <div class="d-flex justify-content-around p-5">
+          <div class="mx-2 p-5">
             <img
-              style="height: 50px"
+              style="height: 120px"
               src="https://cdn-icons-png.flaticon.com/256/174/174854.png"
               alt=""
               class="custom-img"
             />
           </div>
-          <div class="mx-2">
+          <div class="mx-2 p-5">
             <img
-              style="height: 50px"
+              style="height: 120px"
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3iHW9F8U24tel7OWvX4YKDzZH1n8Kt42Zsw&s"
               alt=""
               class="custom-img"
             />
           </div>
-          <div class="mx-2">
+          <div class="mx-2 p-5">
             <img
-              style="height: 50px"
+              style="height: 120px"
               src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/800px-Bootstrap_logo.svg.png"
               alt=""
               class="custom-img"
             />
           </div>
-          <div  class="mx-2">
+          <div  class="mx-2 p-5">
             <img
-              style="height: 50px"
+              style="height: 120px"
               src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/800px-Unofficial_JavaScript_logo_2.svg.png"
               alt=""
               class="custom-img"
