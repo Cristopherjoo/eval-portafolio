@@ -13,9 +13,9 @@ Este es un portafolio simple desarrollado para mostrar mis habilidades y proyect
 
 ## Contenido
 
-1. **[Proyecto 1](enlace-a-tu-proyecto1)**: Descripción breve del proyecto 1, incluyendo objetivos y resultados clave.
-2. **[Proyecto 2](enlace-a-tu-proyecto2)**: Descripción breve del proyecto 2, incluyendo objetivos y resultados clave.
-3. **[Proyecto 3](enlace-a-tu-proyecto3)**: Descripción breve del proyecto 3, incluyendo objetivos y resultados clave.
+1. **[Proyecto 1](enlace-a-tu-proyecto1)**: Descripción breve del proyecto 1. 
+2. **[Proyecto 2](enlace-a-tu-proyecto2)**: Descripción breve del proyecto 2.
+3. **[Proyecto 3](enlace-a-tu-proyecto3)**: Descripción breve del proyecto 3.
 
 
 ## Enlace al Repositorio
