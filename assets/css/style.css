@@ -5,11 +5,11 @@ body {
 
 /* header - navegador  */
 header {
-  background: linear-gradient(135deg, #ff00d4, #00ccff);
+  background: linear-gradient(135deg, rgb(255, 0, 212), rgb(0, 204, 255));
   padding: 10px;
   height: 100vh;
   text-align: center;
-  color: #fff;
+  color: rgb(255, 255, 255);
   border-radius: 0;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
@@ -57,9 +57,7 @@ nav {
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
   transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-/* fin navegador */
+}/* fin navegador */
 
 .inicio-desc {
   text-align: left;
@@ -86,7 +84,7 @@ nav {
 
 /* modal emergente */
 body {
-  background-color: #081420;
+  background-color: rgb(8, 20, 32);
 }
 
 .my-layout {
@@ -122,11 +120,11 @@ body {
 }
 
 .col-right {
-  background-color: #11ad71ee;
+  background-color: rgba(17, 173, 113, 0.933);
 }
 
 .full-width {
-  background-color: #ca71a8;
+  background-color: rgb(202, 113, 168);
 }
 
 /* titulo proyecto */
@@ -135,9 +133,7 @@ body {
   position: relative;
   z-index: 1;
   color: wheat;
-}
-
-/* fin modal */
+}/* fin modal */
 
 /* habilidades */
 #habilidades {
@@ -178,7 +174,7 @@ body {
 }
 
 #contacto {
-  background-color: #f9f9f9;
+  background-color: rgb(249, 249, 249);
   padding: 40px;
   border-radius: 8px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -203,7 +199,7 @@ body {
 .form-control {
   padding: 10px;
   border-radius: 4px;
-  border: 1px solid #ccc;
+  border: 1px solid rgb(204, 204, 204);
   font-size: 16px;
 }
 
@@ -215,27 +211,27 @@ textarea.form-control {
 .btn-primary {
   padding: 10px 20px;
   font-size: 16px;
-  background-color: #007bff;
+  background-color: hwb(211 0% 0%);
   border: none;
   border-radius: 4px;
-  color: white;
+  color: rgb(255, 255, 255);
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
 .btn-primary:hover {
-  background-color: #0056b3;
+  background-color: rgb(0, 86, 179);
 }
 
 /* footer */
 footer {
-  background-color: hwb(210 20% 75%);
-  color: #ffffff;
+  background-color: rgb(51, 57, 64);
+  color: rgb(255, 255, 255);
   text-align: center;
   padding: 20px 0;
   margin-top: 40px;
   font-size: 14px;
-  border-top: 2px solid #007bff;
+  border-top: 2px solid rgb(0, 123, 255);
 }
 
 footer p {
@@ -243,7 +239,7 @@ footer p {
 }
 
 footer p:hover {
-  color: #adb5bd;
+  color: rgb(173, 181, 189);
 }
 
 html {
