@@ -10,45 +10,42 @@
 </head>
 <body>
   <section class="container">
-    <h3 class="titulo-proyecto px-1" style="font-size: 80px; font-family:'Arial Narrow Bold';">Proyectos</h3>
-    <div class="my-layout">
-      <div class="row">
-        <div class="col-left text-white p-3">
-          <h3 class="fs-1 text">Proyecto 1</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, numquam? Suscipit soluta architecto, porro odit voluptates facilis consectetur?</p>
-          <img style="display: none;" src="https://i.ibb.co/QFPyFcq/Whats-App-Image-2024-08-24-at-23-50-36.png" alt="">
+        <h3 class="titulo-proyecto px-1" style="font-size: 80px; font-family:'Arial Narrow Bold';">Proyectos</h3>
+        <div class="my-layout">
+          <div class="row">
+            <div class="col-left text-white p-3">
+              <h3 class="fs-1 text">Proyecto 1</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, numquam? Suscipit soluta architecto, porro odit voluptates facilis consectetur?</p>
+            </div>
+            <div class="col-right text-dark p-3">
+              <h3 class="fs-1 text">Proyecto 2</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, numquam? Suscipit soluta architecto, porro odit voluptates facilis consectetur?</p>
+            </div>
+          </div>
+          <div class="row full-width text-white justify-content-center p-3">
+            <div style="width: 32rem;">
+              <h3 class="fs-1 text">Proyecto 3</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, numquam? Suscipit soluta architecto, porro odit voluptates facilis consectetur?</p>
+            </div>
+          </div>
         </div>
-        <div class="col-right text-dark p-3">
-          <h3 class="fs-1 text">Proyecto 2</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, numquam? Suscipit soluta architecto, porro odit voluptates facilis consectetur?</p>
-          <img style="display: none;" src="https://i.ibb.co/xjBwHXs/Whats-App-Image-2024-08-24-at-23-50-42.png" alt="">
+      </section>
+     
+            <!-- Modal -->
+      <div class="modal fade" id="modalProyecto" tabindex="-1" aria-labelledby="modalProyectoLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="modalProyectoLabel">Detalles del Proyecto</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+          
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="row full-width text-white justify-content-center p-3">
-        <div style="width: 32rem;">
-          <h3 class="fs-1 text">Proyecto 3</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, numquam? Suscipit soluta architecto, porro odit voluptates facilis consectetur?</p>
-          <img style="display: none;" src="https://i.ibb.co/8YPxsXj/Whats-App-Image-2024-08-24-at-23-50-50.png
-          " alt="">
-        </div>
-      </div>
-    </div>
-  </section>
-  
-  <!-- Modal -->
-  <div class="modal fade" id="modalProyecto" tabindex="-1" aria-labelledby="modalProyectoLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title ms-auto" id="modalProyectoLabel"></h5>
-          <button type="button" class="ms-auto" data-bs-dismiss="modal" aria-label="Close">x</button>
-        </div>
-        <div class="modal-body "></div>
-       
-      </div>
-    </div>
-  </div>
-  
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
