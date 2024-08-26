@@ -4,6 +4,13 @@ body{
   padding: 0;
 }
 
+
+header, #habilidades, #contacto {
+  height: 100vh;
+  width: 100%;
+  box-sizing: border-box;
+}
+
 /* header - navegador  */
 header {
   background: linear-gradient(135deg, #ff00d4, #00ccff);
