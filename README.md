@@ -11,12 +11,6 @@ Este es un portafolio simple desarrollado para mostrar mis habilidades y proyect
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
 
 
-## Contenido
-
-1. **[Proyecto 1](enlace-a-tu-proyecto1)**: Descripción breve del proyecto 1. 
-2. **[Proyecto 2](enlace-a-tu-proyecto2)**: Descripción breve del proyecto 2.
-3. **[Proyecto 3](enlace-a-tu-proyecto3)**: Descripción breve del proyecto 3.
-
 
 ## Enlace al Repositorio
 
